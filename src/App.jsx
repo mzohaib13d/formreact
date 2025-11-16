@@ -5,8 +5,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import "./App.css";
 
 // ✅ Add API_BASE at the top (after imports)
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-
+// const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE = "https://formbackand.up.railway.app";
 // ------------------- Zod Validation -------------------
 // Fixed validation schema
 const formSchema = (isEdit = false) =>
